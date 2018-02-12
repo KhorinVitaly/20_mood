@@ -1,9 +1,8 @@
 
 .container {
   text-align: center;
-  background-color: #FFFF00;
-  padding-bottom: 20px;
-  border: 4px double black;
+  background-color: #ffca18;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 body {

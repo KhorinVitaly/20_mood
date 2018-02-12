@@ -1,7 +1,6 @@
-var phrase = document.getElementById('phrase');
-var signature = document.getElementById('signature');
-
-var quotes_json = document.getElementById('quotes_json');
+var phrase = document.getElementById('phrase'),
+  signature = document.getElementById('signature'),
+  quotes_json = document.getElementById('quotes_json');
 
 quotesArr = JSON.parse(quotes_json.innerHTML);
 var rand = Math.floor(Math.random() * quotesArr.length);
@@ -15,5 +14,5 @@ if (quotesArr[rand].signature != undefined){
 }
 
 function escapeRegExp(str) {
-  return str.replace("/","\u002F");
+  return str.replace("/","");
 }

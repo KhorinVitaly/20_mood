@@ -1,6 +1,10 @@
 # Site for the Mood
 
-[TODO. There will be project description]
+Just a fun site, every time you load it, a randomly selected funny quote is displayed.
+
+# Quickstart
+
+Site published on GitHub Pages you can look it on [khorinvitaly.github.io/20_mood/](https://khorinvitaly.github.io/20_mood/)  
 
 # Project Goals
 
